@@ -496,7 +496,6 @@ def create_chat_interface(conversation):
 
 # --- Dash App Initialization ---
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
-server = app.server
 app.title = "RT Monitor - Conversation Analysis"
 
 # --- App Layout ---
